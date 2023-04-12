@@ -1,0 +1,18 @@
+ question 1
+asciiname= 109 + 111 + 104 + 97 + 109 + 97 + 100 = 727 "mohamad"
+
+asciisurname= 100 + 97 + 104 + 99 + 104 + 101 = 605 "dahche"
+
+asciitotal=727+ 32+ 605 = 1364
+
+timernumber=(ASciitotal%14)+1=(1364 % 14) +1= 6+1 =7
+
+ARRnumber=65535
+
+duration = (Asciisurname % 1500)*30=(605 % 1500)*30= 18150
+
+
+LEDPINNUMBER =(Asciitotal % 4) +12=(1364 %4)+12=0+12=12
+
+
+my timer of number 7 is connected to APB1 bus
